@@ -1,0 +1,15 @@
+RubyShortner
+============
+
+Version  : 1.0
+Language : Ruby
+Website  : http://affix.me
+License  : GPLv3
+
+Description
+===========
+A simple yet elegant URL Shortner Written in Ruby using the Sinatra DSL Framework
+
+Download Sinatra : http://sinatrarb.com
+
+I will not be providing updates or support for this application it is only here as an example of how to use the sinatra framework at a very basic level.

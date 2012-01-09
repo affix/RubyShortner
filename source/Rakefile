@@ -1,0 +1,13 @@
+require 'active_record'
+
+namespace :db do
+	desc "Migrate Database"
+	task :migrate do
+		ActiveRecord::Base.establish_connection(
+				:adapter => 'sqlite3',
+				:database => 'db/links.sqlite3'
+				)
+		ActiveRecord::Migration.verbose = true
+		ActiveRecord::Migrator.migrate "db/migrate"
+	end
+end
